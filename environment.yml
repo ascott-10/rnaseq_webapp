@@ -7,4 +7,5 @@ dependencies:
   - python=3.10
   - matplotlib
   - pandas
+  - seaborn
 prefix: /home/ascott10/miniforge3/envs/streamlist-app
