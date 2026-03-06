@@ -13,7 +13,7 @@ st.sidebar.header("Settings")
 uploaded_file = st.sidebar.file_uploader("Upload CSV", type = ["csv"])
 
 if uploaded_file:
-    df = pd.read_csv(uploaded_file, index_index=0)
+    df = pd.read_csv(uploaded_file, index_col=0)
 
     st.subheader("Data Preview")
     st.write(df.head())
